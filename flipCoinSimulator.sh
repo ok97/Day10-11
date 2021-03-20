@@ -18,11 +18,11 @@ Tcount=$(expr $Tcount + 1)
 fi
 if [ $Hcount -eq 6 ]
 then
-echo "Head Win"
+echo "☺☺☺☺☺☺☺☺ Head Wins 6 Times ☺☺☺☺☺☺☺☺"
 break
 elif [ $Tcount -eq 6 ]
 then
-echo "Tail Win"
+echo "☺☺☺☺☺☺☺☺ Tails wins 6 Times ☺☺☺☺☺☺☺☺"
 break
 fi
 i=$(expr $i + 1 )
