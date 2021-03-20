@@ -15,3 +15,4 @@ Array[1]=$Compute_3
 Array[2]=$Compute_4
 Array[3]=$Compute_5
 echo "Array Index Number:-${!Array[@]}"
+echo "Array Compute Values:- ${Array[@]}"
