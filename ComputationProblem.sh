@@ -10,3 +10,8 @@ echo "Compute (a+b*c):-"$Compute_2
 echo "Compute (a*b+c):-"$Compute_3
 echo "Compute (c+a/b):-"$Compute_4
 echo "Compute (a%b+c):-"$Compute_5
+Array[0]=$Compute_2
+Array[1]=$Compute_3
+Array[2]=$Compute_4
+Array[3]=$Compute_5
+echo "Array Index Number:-${!Array[@]}"
